@@ -20,7 +20,8 @@ This README file describes the structure of the provided files (Raw data, source
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Prerequisites">Prerequisites</a></li>
+        <li><a href="#Installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#Data">Data</a></li>
@@ -34,7 +35,7 @@ This README file describes the structure of the provided files (Raw data, source
 ### Prerequisites
 Run in Python3.7 or Google Colaboratory 
 
-### Prerequisites
+### Installation
 
 ```
 !git clone https://github.com/anonymoususr12/MHPurf
