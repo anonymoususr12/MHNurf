@@ -69,4 +69,4 @@ Before performing Scott-Knott Analysis, please put the data into a .xlsx file as
 
 Process this .xlsx file by executing the code in `statistical_analysis/create_sorted.ipynb`. You will get a sorted csv file (e.g., sorted_tensorflow.csv). The sorted data can be easily used in `statistical_analysis/scottknott.ipynb`, which is based on R, to perform Scott-Knott Analysis.
 
-## Result
+## Result 
