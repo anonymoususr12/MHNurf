@@ -45,13 +45,13 @@ The easiest way to execute the codes for the proposed approach is to download th
 
 ## Data
 ### Experiment dataset
-In `/data` directory, you can find the raw data used in our experiments in `tensorFlow.csv`, `pytorch.csv`, `keras.csv` , `incubator-mxnet.csv` and `caffe.csv`. These files will be loaded automatically in each model script.
+In data directory, you can find the raw data used in our experiments in `tensorFlow.csv`, `pytorch.csv`, `keras.csv` , `incubator-mxnet.csv` and `caffe.csv`. These files will be loaded automatically in each model script.
 
 ### Embedding
-GloVe embedding pre-trained word vectors is stored in `/data/embedding` directory. But word2vec embedding for LSTM&CNN models is not uploaded due to GitHub file size limit. It can be downloaded from https://wikipedia2vec.github.io/wikipedia2vec/pretrained/.
+GloVe embedding pre-trained word vectors is stored in `data/embedding` directory. But word2vec embedding for LSTM&CNN models is not uploaded due to GitHub file size limit. It can be downloaded from https://wikipedia2vec.github.io/wikipedia2vec/pretrained/.
 
 ### Create your own dataset
-We also provide a tool which allows you to create your own dataset by executing the code in `/data/features_collecting.ipynb`.
+We also provide a tool which allows you to create your own dataset by executing the code in `data/features_collecting.ipynb`.
 
 ## Model
 You can use the jupyter notebooks in `\model` to run each corresponding model as shown below:
@@ -67,6 +67,6 @@ Before performing Scott-Knott Analysis, please put the data into a .xlsx file as
 
 <img src="statistical_analysis/example1.PNG" width=500>
 
-Process this .xlsx file by executing the code in `create_sorted.ipynb`. You will get a sorted csv file (e.g., sorted_tensorflow.csv). The sorted data can be easily used in scottknott.ipynb, which is based on R, to perform Scott-Knott Analysis.
+Process this .xlsx file by executing the code in `statistical_analysis/create_sorted.ipynb`. You will get a sorted csv file (e.g., sorted_tensorflow.csv). The sorted data can be easily used in `statistical_analysis/scottknott.ipynb`, which is based on R, to perform Scott-Knott Analysis.
 
 ## Result
