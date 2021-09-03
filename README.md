@@ -6,7 +6,7 @@ This README file describes the structure of the provided files (Raw data, source
 
 ## How to install
 
-### Python
+### Google Colaboratory (Python main)
 
 ```
 git clone https://github.com/anonymoususr12/MHPurf
