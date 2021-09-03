@@ -9,7 +9,7 @@ This README file describes the structure of the provided files (Raw data, source
 ### Google Colaboratory (Python main)
 
 ```
-git clone https://github.com/anonymoususr12/MHPurf
+!git clone https://github.com/anonymoususr12/MHPurf
 ```
 
 The easist way to execute the codes for the proposed approach is to download the .ipyb script you need and run it in Google Colaboratory, where you can execute the Python code or R code in your broswer.
