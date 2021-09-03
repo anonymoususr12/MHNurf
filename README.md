@@ -19,10 +19,10 @@ This README file describes the structure of the provided files (Raw data, source
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Data">Usage</a></li>
-    <li><a href="#Model">Roadmap</a></li>
-    <li><a href="#Statistical Analysis">Contributing</a></li>
-    <li><a href="#Result">License</a></li>
+    <li><a href="#Data">Data</a></li>
+    <li><a href="#Model">Model</a></li>
+    <li><a href="#Statistical Analysis">Statistical Analysis</a></li>
+    <li><a href="#Result">Result</a></li>
   </ol>
 </details>
 
