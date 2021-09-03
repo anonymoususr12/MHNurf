@@ -1,12 +1,35 @@
 # Multifaceted Hierarchical Performance Bug ReportIdentification for Deep Learning Projects
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
 This online appendix is supplementary to the paper entitled "Multifaceted Hierarchical Performance Bug ReportIdentification for Deep Learning Projects".. It contains the raw results, code for the proposed approach, and Colab script to replicate our experiments.
 
 This README file describes the structure of the provided files (Raw data, source code and results). as well as information on the content of this repository.
 
-## How to install
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Data">Usage</a></li>
+    <li><a href="#Model">Roadmap</a></li>
+    <li><a href="#Statistical Analysis">Contributing</a></li>
+    <li><a href="#Result">License</a></li>
+  </ol>
+</details>
 
-### Google Colaboratory (Python main)
+## Getting Started
+
+### Installation
+
 
 ```
 !git clone https://github.com/anonymoususr12/MHPurf
