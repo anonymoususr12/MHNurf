@@ -35,9 +35,17 @@ This README file describes the structure of the provided files (Raw data, source
 !git clone https://github.com/anonymoususr12/MHPurf
 ```
 
-The easist way to execute the codes for the proposed approach is to download the .ipyb script you need and run it in Google Colaboratory, where you can execute the Python code or R code in your broswer.
+The easiest way to execute the codes for the proposed approach is to download the .ipyb script you need and run it in Google Colaboratory, where you can execute the Python code or R code in your broswer.
 
 ## Data
+### Experiment dataset
+In `/data` directory, you can find the raw data used in our experiments in `tensorFlow.csv`, `pytorch.csv`, `keras.csv` , `incubator-mxnet.csv` and `caffe.csv`. These files will be loaded automatically in each model script.
+
+### Embedding
+GloVe embedding pre-trained word vectors is stored in `/data/embedding` directory. But word2vec embedding for LSTM&CNN models is not uploaded due to GitHub file size limit. It can be downloaded from https://wikipedia2vec.github.io/wikipedia2vec/pretrained/.
+
+### Create your own dataset
+We also provide a tool which allows you to create your own dataset by executing the code in `data/features_collecting.ipynb`.
 
 ## Model
 
