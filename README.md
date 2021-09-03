@@ -54,7 +54,7 @@ GloVe embedding pre-trained word vectors is stored in `data/embedding` directory
 We also provide a tool which allows you to create your own dataset by executing the code in `data/features_collecting.ipynb`.
 
 ## Model
-You can use the jupyter notebooks in `\model` to run each corresponding model as shown below:
+You can use the jupyter notebooks in `model` to run each corresponding model as shown below:
 | File name | Corresponding model |
 | --- | --- |
 | MHAN.ipynb |  Multifaceted Hierarchical Attention Networks |
