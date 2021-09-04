@@ -75,29 +75,29 @@ The result files are the sorted csv files that contain the AUC values for 30 run
 We organize the results according to the RQ they answer:
 
 RQ1: This directory contains the result for MHPurf that uses the content of
-- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒<sub> :only title is considered.
-- MHPurf<sub>𝑑𝑒𝑠𝑐<sub> : only description is considered.
-- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒+𝑑𝑒𝑠𝑐<sub> : both title and description are concatenated together as part of the content feature.
+- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒</sub> :only title is considered.
+- MHPurf<sub>𝑑𝑒𝑠𝑐</sub> : only description is considered.
+- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒+𝑑𝑒𝑠𝑐</sub> : both title and description are concatenated together as part of the content feature.
 
 RQ2: This directory contains the experiment result for each combination of feature types. We show the corresponding Alias for each combination of feature types below:
 
 |Alias |Feature Types
 | --- | --- |
-|MHPurf<sub>𝐴<sub> |content
-|MHPurf<sub>𝐵<sub> |content+comment
-|MHPurf<sub>𝐶<sub> |content+code
-|MHPurf<sub>𝐷<sub> |content+command
-|MHPurf<sub>𝐸<sub> |content+label
-|MHPurf<sub>𝐹<sub> |content+comment+code
-|MHPurf<sub>𝐺<sub> |content+comment+command
-|MHPurf<sub>𝐻<sub> |content+comment+label
-|MHPurf<sub>𝐼<sub> |content+code+command
-|MHPurf<sub>𝐽<sub> |content+code+label
-|MHPurf<sub>𝐾<sub> |content+command+label
-|MHPurf<sub>𝐿<sub> |content+comment+command+label
-|MHPurf<sub>𝑀<sub> |content+comment+command+code
-|MHPurf<sub>𝑁<sub> |content+comment+code+label
-|MHPurf<sub>𝑂<sub> |content+command+code+label
-|MHPurf<sub>𝑃<sub> |content+comment+command+code+label
+|MHPurf<sub>𝐴</sub> |content
+|MHPurf<sub>𝐵</sub> |content+comment
+|MHPurf<sub>𝐶</sub> |content+code
+|MHPurf<sub>𝐷</sub> |content+command
+|MHPurf<sub>𝐸</sub> |content+label
+|MHPurf<sub>𝐹</sub> |content+comment+code
+|MHPurf<sub>𝐺</sub> |content+comment+command
+|MHPurf<sub>𝐻</sub> |content+comment+label
+|MHPurf<sub>𝐼</sub> |content+code+command
+|MHPurf<sub>𝐽</sub> |content+code+label
+|MHPurf<sub>𝐾</sub> |content+command+label
+|MHPurf<sub>𝐿</sub> |content+comment+command+label
+|MHPurf<sub>𝑀</sub> |content+comment+command+code
+|MHPurf<sub>𝑁</sub> |content+comment+code+label
+|MHPurf<sub>𝑂</sub> |content+command+code+label
+|MHPurf<sub>𝑃</sub> |content+comment+command+code+label
 
 RQ3: This directory contains the result of the best variant of MHPurf (from RQ2) against nine classifiers.
