@@ -75,9 +75,9 @@ The result files are the sorted csv files that contain the AUC values for 30 run
 We organize the results according to the RQ they answer:
 
 RQ1: This directory contains the result for MHPurf that uses the content of
-- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒</sub> :only title is considered.
-- MHPurf<sub>𝑑𝑒𝑠𝑐</sub> : only description is considered.
-- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒+𝑑𝑒𝑠𝑐</sub> : both title and description are concatenated together as part of the content feature.
+- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒</sub>: only title is considered.
+- MHPurf<sub>𝑑𝑒𝑠𝑐</sub>: only description is considered.
+- MHPurf<sub>𝑡𝑖𝑡𝑙𝑒+𝑑𝑒𝑠𝑐</sub>: both title and description are concatenated together as part of the content feature.
 
 RQ2: This directory contains the experiment result for each combination of feature types. We show the corresponding Alias for each combination of feature types below:
 
