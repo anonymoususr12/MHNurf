@@ -19,10 +19,6 @@ This README file describes the structure of the provided files (Raw data, source
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#Prerequisites">Prerequisites</a></li>
-        <li><a href="#Installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#Data">Data</a></li>
     <li><a href="#Model">Model</a></li>
