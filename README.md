@@ -2,7 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This online appendix is supplementary to the paper entitled "Multifaceted Hierarchical Report Identification for Implicit Bugs in Deep Learning Frameworks". It contains the raw results, code for the proposed approach, and Colab script to replicate our experiments.
+This online appendix is supplementary to the paper entitled "Multifaceted Hierarchical Report Identification for Non-Functional Bugs in Deep Learning Frameworks". It contains the raw results, code for the proposed approach, and Colab script to replicate our experiments.
 
 This README file describes the structure of the provided files (Raw data, source code and results). as well as information on the content of this repository.
 
